@@ -45,10 +45,10 @@ Metrics/ModuleLength:
   Max: 200
 
 Metrics/ClassLength:
-  Max: 250
+  Max: 300
 
 Metrics/ParameterLists:
-  Max: 10
+  Max: 15
 
 Style/ParallelAssignment:
   Enabled: false
@@ -80,13 +80,16 @@ Style/MultilineBlockChain:
 # Current preferred metrics --------------------------------------------
 # Better values are encouraged, but not required.
 Metrics/AbcSize:
-  Max: 20
+  Max: 30
 
 Metrics/MethodLength:
-  Max: 15
+  Max: 20
 
 Metrics/CyclomaticComplexity:
-  Max: 7
+  Max: 8  
+
+Metrics/PerceivedComplexity:
+  Max: 8
 
 # TODO -----------------------------------------------------------------
 
